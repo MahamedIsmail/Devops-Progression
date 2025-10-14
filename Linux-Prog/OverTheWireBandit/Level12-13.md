@@ -1,9 +1,9 @@
 
 
 
-# Bandit Wargame – Level2: Hexdump and Repeated Compression
+# Bandit Wargame – Level 12: Hexdump and Repeated Compression
 
- Objecktive
+ # Objecktive
  
 The password for the next level is stored in a file called `data.txt`. This file is a **hexdump** of a binary file that has been **repeatedly compressed** in different formats.  
 
@@ -121,11 +121,4 @@ And inside the file was the password for the next Bandit level 🎉
 
 ---
 
-##  Lessons Learned
 
-* Linux often separates tasks (archiving and compression), unlike Windows.
-* Identifying file types with `file` is crucial before taking action.
-* Even repetitive tasks can teach valuable command-line fundamentals.
-* Always work in a temporary directory to avoid clutter or mistakes.
-
----
