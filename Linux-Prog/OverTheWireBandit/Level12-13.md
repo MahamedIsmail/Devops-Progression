@@ -107,18 +107,7 @@ Finally, the `file` command reported:
 ASCII text
 ```
 
-And inside the file was the password for the next Bandit level 🎉
+And inside the file was the password for the next Bandit level
 
 ---
-
-##  Key Takeaways
-
-* **`xxd -r`**: Reverse a hexdump to binary.
-* **`file`**: Always check what kind of file you're dealing with.
-* **`gzip -d`, `bzip2 -d`, `tar -xf`**: Core tools for decompression and extraction.
-* **File extensions matter**: Sometimes commands require the correct extension to work.
-* **Archiving ≠ Compression**: `tar` just bundles files, while `gzip`/`bzip2` compress them.
-
----
-
 
