@@ -1,5 +1,5 @@
 
-# Bandit Wargame – Level 15: Sending Data to a Port
+# Bandit Wargame – Level 14: Sending Data to a Port
 
 ##  Objective
 The password for the next level can be retrieved by submitting the password of the current level to port **30000** on `localhost`.
