@@ -1,9 +1,9 @@
 
 
-````markdown
+
 # Bandit Wargame – Level2: Hexdump and Repeated Compression
 
-## Objecktive
+ Objecktive
  
 The password for the next level is stored in a file called `data.txt`. This file is a **hexdump** of a binary file that has been **repeatedly compressed** in different formats.  
 
@@ -13,7 +13,7 @@ The password for the next level is stored in a file called `data.txt`. This file
 - Rename files when needed with `mv`.
 - Use the `file` command to identify file types as you go.
 
----
+
 
 ## My path to a solution step my step
 
@@ -25,7 +25,7 @@ cd /tmp/tmp.ABCD1234    # example folder name
 cp ~/data.txt .         # copy the data.txt into this directory
 ````
 
----
+
 
 ### 2. Convert Hexdump Back to Binary
 
