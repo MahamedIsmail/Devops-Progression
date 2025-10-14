@@ -1,5 +1,5 @@
 
-# Bandit Wargame – Level 14: TLS Connection with OpenSSL
+# Bandit Wargame – Level 15: TLS Connection with OpenSSL
 
 # Objective
 
