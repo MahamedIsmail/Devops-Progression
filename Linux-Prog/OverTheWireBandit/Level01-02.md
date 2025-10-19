@@ -1,4 +1,4 @@
-### Bandit - Level 2
+### Bandit - Level 1
 
 Objecktive
 The password for the next level is stored in a file called "--something" located in the home directory. The tricky part is that filenames starting with "--" can be interpreted by commands as options instead of file names.
