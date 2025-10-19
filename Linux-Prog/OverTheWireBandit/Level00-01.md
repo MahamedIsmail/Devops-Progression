@@ -18,4 +18,3 @@ This revealed the password for the next level. I then used SSH to log into "band
 ssh bandit1@bandit.labs.overthewire.org -p 2220
 
 
-This level helped me understand how to navigate the file system, read files, and connect to remote servers securely using SSH.
