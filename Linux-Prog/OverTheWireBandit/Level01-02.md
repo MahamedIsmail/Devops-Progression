@@ -12,4 +12,3 @@ I started typing "./--" and pressed "Tab" for auto-completion, which completed t
 cat ./--something
 
 
-This displayed the password. From this level, I learned how Linux treats filenames that start with "--" and how using "./" is a simple way to reference them directly.
