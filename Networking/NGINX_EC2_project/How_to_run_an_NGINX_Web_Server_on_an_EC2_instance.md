@@ -6,6 +6,10 @@ You start by choosing a domain registrar to search for the site you want. I reco
 <img src="https://github.com/MahamedIsmail/Devops-Progression/blob/main/Networking/Images/My_domain.png?raw=true" width="800" alt="Cloudflare domain dashboard showing mahamedismail.uk">
 
 
+# 2. Launch an AWS EC2 Instance
+
+
+
 
 
 
