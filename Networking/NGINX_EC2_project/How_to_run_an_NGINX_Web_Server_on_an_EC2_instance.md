@@ -3,7 +3,8 @@ In this README I will walk you through how to run an NGINX server on an AWS EC2 
 
  # 1. Buy a domain on Cloudflare
 You start by choosing a domain registrar to search for the site you want. I recommend picking a cheap domain(if its personal), even if it has an unusual extension. For my project, I chose mahamedismail.uk.
-![Cloudflare domain dashboard showing mahamedismail.u](./S)
+![Cloudflare domain dashboard showing mahamedismail.u](https://github.com/MahamedIsmail/Devops-Progression/blob/main/Networking/Images/Cloadflare_dashboard.png)
+
 
 
 
