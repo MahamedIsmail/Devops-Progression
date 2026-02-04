@@ -2,21 +2,26 @@ In this README I will walk you through how to run an NGINX server on an AWS EC2 
 
 
  # 1. Buy a domain on Cloudflare
+ 
 You start by choosing a domain registrar to search for the site you want. I recommend picking a cheap domain(if its personal), even if it has an unusual extension. For my project, I chose mahamedismail.uk.
 <img src="https://github.com/MahamedIsmail/Devops-Progression/blob/main/Networking/Images/My_domain.png?raw=true" width="800" alt="Cloudflare domain dashboard showing mahamedismail.uk">
 
 
 # 2. Launch an AWS EC2 Instance
+
 Navigate to the AWS Management Console, search for EC2, and begin the "Launch Instance" process.
 
 The first step is selecting an AMI (Amazon Machine Image). An AMI is a pre-configured template that provides the software configuration (operating system, application server, and applications) required for your instance. For this setup, I chose Amazon Linux.
 
-https://github.com/MahamedIsmail/Devops-Progression/blob/main/Networking/Images/EC2_Instace_creation.png
 
-### 2.1 Next you select the Instance Type
-For this project, I chose the t3.micro. It is part of the AWS Free Tier, making it ideal for testing and hosting a lightweight NGINX server. I chose this specifically because it balances cost-efficiency with enough performance to handle web traffic without over-provisioning resources."
+<img src="https://github.com/MahamedIsmail/Devops-Progression/blob/main/Networking/Images/EC2_Instace_creation.png?raw=true" width="800" alt="Cloudflare domain dashboard showing mahamedismail.uk">
 
-### 2.2 Key pair for loging (for ssh)
+
+## 2.1 Next you select the Instance Type
+
+For this project, I chose the t3.micro. It is part of the AWS Free Tier, making it ideal for testing and hosting a lightweight NGINX server.
+
+## 2.2 Creating Key pair (for loging ssh)
 
 Before launching the instance, you must create a Key Pair (or select an existing one). This ensures secure access to your server.
 
@@ -40,12 +45,19 @@ HTTP (Port 80): Enabled to allow standard web traffic, which is essential for se
 <img src="https://github.com/MahamedIsmail/Devops-Progression/blob/main/Networking/Images/firewall.png?raw=true" width="800" alt="Cloudflare domain dashboard showing mahamedismail.uk">
 
 
-2.4 Copy your instce ip
-go to instace copy you ip from your runing instce and run  the command down below in youer termiunal 
-### 2.3 copy your  
+# 3 Copy Your Instance IP
+
+To proceed, navigate to your running instance in the AWS Console and locate the Public IPv4 address or the Public IPv4 DNS; either of these will work to identify your server. You will also need your default EC2 user name, which is typically ec2-user for Amazon Linux or ubuntu for Ubuntu-based instances. Once you have copied both your IP address and the user name, you can use them to run the SSH command in your terminal as shown below.
+
+<img src="https://github.com/MahamedIsmail/Devops-Progression/blob/main/Networking/Images/ip_of_instance.png?raw=true" width="800" alt="Cloudflare domain dashboard showing mahamedismail.uk">  
+
+### Command mention in the section above 
 ```
 ssh -i "my-key.pem" ec2-user@your-public-ip
 ```
+
+
+
 
 
 
