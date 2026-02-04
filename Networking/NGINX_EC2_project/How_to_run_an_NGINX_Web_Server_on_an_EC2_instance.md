@@ -37,14 +37,16 @@ By default, AWS implements a "deny-all" policy for inbound traffic to ensure ins
 SSH (Port 22): Enabled from 0.0.0.0/0 (Anywhere) to ensure seamless remote access for management and configuration.
 
 HTTP (Port 80): Enabled to allow standard web traffic, which is essential for serving the NGINX web content in this project.
+<img src="https://github.com/MahamedIsmail/Devops-Progression/blob/main/Networking/Images/firewall.png?raw=true" width="800" alt="Cloudflare domain dashboard showing mahamedismail.uk">
 
 
 2.4 Copy your instce ip
-
+go to instace copy you ip from your runing instce and run  the command down below in youer termiunal 
 ### 2.3 copy your  
 ```
 ssh -i "my-key.pem" ec2-user@your-public-ip
 ```
+
 
 
 
