@@ -1,4 +1,4 @@
-In this README I will walk you through how to run an NGINX server on an AWS EC2 instance, and map it to a Cloudflare domain.
+In this README I will walk you through how to run an NGINX server on an AWS EC2 instance and map it to a Cloudflare domain.
 
 
  # 1. Buy a domain on Cloudflare
@@ -112,6 +112,7 @@ You can customize your website by editing the Nginx HTML file directly through y
 
 
 <img src="https://github.com/MahamedIsmail/Devops-Progression/blob/main/Networking/Images/My_domain.png?raw=true" width="800" alt="Cloudflare domain dashboard showing mahamedismail.uk">
+
 
 
 
