@@ -5,7 +5,7 @@ In this README I will walk you through how to run an NGINX server on an AWS EC2 
  
 You start by choosing a domain registrar to search for the site you want. I recommend picking a cheap domain(if its personal), even if it has an unusual extension. For my project, I chose mahamedismail.uk.
 
-<img src="https://github.com/MahamedIsmail/Devops-Progression/blob/main/Networking/Images/Cloadflare_dashboard.png?raw=true" width="800" alt="Cloadflare_dashboard.png">
+<img src="https://github.com/MahamedIsmail/Devops-Progression/blob/main/Networking/Images/Cloadflare_dashboard_edit.png?raw=true" width="800" alt="Cloadflare_dashboard_edit.png">
 
 # 2. Launch an AWS EC2 Instance
 
@@ -112,6 +112,7 @@ You can customize your website by editing the Nginx HTML file directly through y
 
 
 <img src="https://github.com/MahamedIsmail/Devops-Progression/blob/main/Networking/Images/My_domain.png?raw=true" width="800" alt="Cloudflare domain dashboard showing mahamedismail.uk">
+
 
 
 
